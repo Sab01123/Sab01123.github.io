@@ -767,3 +767,124 @@ footer span a:hover {
     line-height: 38px;
   }
 }
+
+
+/* calendar */
+
+#github-stats {
+  padding: 100px 10px;
+}
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+
+
+.github-stat {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.github-stat img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+  padding: 10px 30px;
+}
+
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #de354c);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  transition: height 0.5s;
+}
+
+.layer h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.container{
+text-align: center;
+}
+
+.github-st .title::after {
+content: "see my work";
+}
+.github-stat:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 690px) {
+
+.github-stat {
+  width: 300px;
+  font-size: 8px;
+}
+
+.github-stat {
+width: 100%;
+font-size: 8px;
+}
+.container{
+text-align: center;
+}
+
+.cont-box-1>img{
+width: 45px;
+height: 45px;
+}
+
+.github-stat>img{
+margin: 0 auto;
+width: 100%;
+margin-top: 20px;
+}
+
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+}
+
+@media (max-width: 500px) {
+.github-stat {
+  width: 100%;
+  font-size: 8px;
+}
+
+.github-stat>img{
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.github-stats-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  margin-top: 50px;
+  grid-gap: 40px;
+}
+}
+
+/* calender */
