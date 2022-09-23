@@ -289,9 +289,9 @@ section .title::after {
   background: #fff;
 }
 .services .title::after,
-.project .title::after {
+.project .title::after{
   background: #111;
-  content: "What I Provide";
+  /* content: "What I Provide"; */
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -959,5 +959,8 @@ a{
 .soft>hr{
   margin: auto;
   width: 250px;
-  border-color: rgb(45, 236, 28)
+  border-color: green
+}
+#softSkil{
+  margin-bottom: 30px;
 }
