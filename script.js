@@ -71,3 +71,19 @@ $(document).ready(function () {
     },
   });
 });
+
+let drive  = document.querySelector(".Drivegoogle").addEventListener("click",openDrive)
+
+function openDrive(){
+window.open(href="./Sabira_Farooq_Resume.pdf");
+}
+let drive2  = document.querySelector(".Drivegoogle2").addEventListener("click",openDrive2)
+
+function openDrive2(){
+window.open(href="./Sabira_Farooq_Resume.pdf");
+}
+let drive3  = document.querySelector(".Drivegoogle3").addEventListener("click",openDrive3)
+
+function openDrive3(){
+window.open(href="./Sabira_Farooq_Resume.pdf");
+}
